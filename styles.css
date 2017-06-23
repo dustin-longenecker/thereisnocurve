@@ -14,16 +14,23 @@ body {
 #body{
   background-color: #121211 ;
   color: #F6F9FC;
-
+font-family: 'Lato', sans-serif;
+}
+#footer-container{
+  text-align: justify;
+  margin-top: 5px;
+  padding-top: 10px;
+  padding-bottom: 25px;
+  margin-bottom: 50px;
+  background-color: #222222;
 }
 
 
 #main-container {
   background-color: #333333;
-  border-bottom: 15px solid #327f4b;
-  border-top: 50px solid #327F4B;
+  border-bottom: 7px solid #327f4b;
+  border-top: 25px solid #327F4B;
 
-}
 
 #main-section p{
   padding-left: 15px;
@@ -41,6 +48,7 @@ body {
   margin: 0px;
   padding: 0px;
 }
+
 #nav-tabs-left {
   border:none;
 }
@@ -57,9 +65,13 @@ body {
   text-decoration: underline;
   color:#327f4b;
   background-color: #333333;
+  border-color:#327f4b;
 
   border-radius: 0%;
 
+}
+#page-footer{
+  text-align: center;
 }
 #page-footer h3 {
   text-decoration: underline;
@@ -67,6 +79,7 @@ body {
 }
 #page-footer li {
   list-style-type: none;
+  padding: 3px
 }
 #page-footer li a{
   color:#327f4b;
@@ -87,10 +100,12 @@ body {
   color: #327F4B;
 }
 
-
+#scrollspy{
+  margin-top: 15px;
+}
 #scrollspy li a {
   background-color:;
-  color: #327F4B;
+  color: #F6F9FC;
 }
 #scrollspy li a:active {
   background-color:  #327F4B;
@@ -102,6 +117,6 @@ body {
   border: 2px solid #327F4B;
   background-color: inherit;
 
-  color:  #F6F9FC;
+  color:  #327F4B;
   text-decoration: underline;
 }
